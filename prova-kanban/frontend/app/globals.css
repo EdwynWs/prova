@@ -1,0 +1,29 @@
+
+i {
+  margin-right: 5px;
+}
+
+.corAzul {
+  color: blue;
+}
+
+.grid-imovel {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 920px) {
+  .grid-imovel {
+      grid-template-columns: 300px 300px;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-imovel {
+      grid-template-columns: 300px;
+
+  }
+}
